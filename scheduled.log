@@ -1,0 +1,6 @@
+./setup.sh: line 2: __pycache__: command not found
+./setup.sh: line 2: __pycache__: command not found
+./setup.sh: line 3: __pycache__: command not found
+./setup.sh: line 6: __pycache__: command not found
+bash: __pycache__: command not found
+./setup.sh: line 6: __pycache__: command not found
