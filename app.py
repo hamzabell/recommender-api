@@ -11,7 +11,11 @@ import numpy as np
 
 app = Flask(__name__)
 
-@app.route('/', methods=['POST'])
+@app.route('/')
+def home():
+    return "<h1>No way Home, but you are home</h1>"
+
+@app.route('/recommend', methods=['POST'])
 def recommend_article():
     rec = RecommendationEngine()
     data = request.get_json()

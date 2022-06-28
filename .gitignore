@@ -2,3 +2,4 @@ database.db
 model.pkl
 sim_data.pkl
 __pycache__
+venv
